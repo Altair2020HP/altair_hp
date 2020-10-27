@@ -1,14 +1,7 @@
-#main{
-  display: inline-block;
-}
-
-#works {
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 30px;
+a{
+  color: #000;
 }
 .pankuzu li {
-
   position: relative;
   display: inline-block;
   padding-left: 20px;
@@ -17,7 +10,6 @@
 }
 
 .pankuzu li:after {
-
   content: '';
   width: 6px;
   height: 6px;
@@ -30,12 +22,19 @@
   margin-top: -4px;
   transform: rotate(45deg);
 }
+#main{
+  display: inline-block;
+}
 
-@media screen and (max-width: 980px)
-#works-area {
+#works {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+/*#works-area {
   border-radius: 2%;
   line-height: 70px;
-}
+}*/
 
 #works-area {
   background-color: rgba(255,255,255,0.7);
@@ -58,9 +57,138 @@
 .group3 {
   margin: 10px 8px 10px 100px;
 }
+@media screen and (max-width: 980px){
+  #works-area {
+  background-color: rgba(255,255,255,0.7);
+  display: inline-block;
+  text-align: left;
+  border: 1px solid;
+  border-color: #000000;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.group1 {
+  margin: 10px 8px 10px 30px;
+}
+
+.group2 {
+  margin: 10px 8px 10px 30px;
+}
+
+.group3 {
+  margin: 10px 8px 10px 30px;
+}
+}
 
 
-@media screen and (max-width: 479px) 
 
+@media screen and (max-width: 479px) {
+    #works-area {
+  background-color: rgba(255,255,255,0.7);
+  display: inline-block;
+  text-align: left;
+  border: 1px solid;
+  border-color: #000000;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 50px;
+}
+.group1 {
+  margin: 5px 10px 10px 30px;
+}
+
+.group2 {
+  margin: 5px 10px 10px 30px;
+}
+
+.group3 {
+  margin: 5px 10px 10px 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+/*#main{
+  display: inline-block;
+}
+
+#works {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+#works-area {
+  background-color: rgba(255,255,255,0.7);
+  display:flex;
+  justify-content: space-between;
+  text-align: left;
+  border: 1px solid;
+  border-color: #000000;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-left:90px;
+  margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 980px){
+#works-area {
+  border-radius: 2%;
+  line-height: 70px;
+}
+
+#works-area {
+  background-color: rgba(255,255,255,0.7);
+  justify-content:start;
+  flex-wrap: wrap;
+  border: 1px solid;
+  border-color: #000000;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+.group1 {
+  margin: 10px 8px 10px 100px;
+}
+
+.group2 {
+  margin: 10px 8px 10px 100px;
+}
+
+.group3 {
+  margin: 10px 8px 10px 100px;
+}
+}*/
+
+
+/*@media screen and (max-width: 479px) {
+
+#works-area {
+  background-color: rgba(255,255,255,0.7);
+  display: inline-block;
+  text-align:center;
+  border: 1px solid;
+  border-color: #000000;
+  padding-left:0px;
+}
+.group1 {
+  margin: 10px 8px 10px 30px;
+}
+
+.group2 {
+  margin: 10px 8px 10px 30px;
+}
+
+.group3 {
+  margin: 10px 8px 10px 30px;
+}
+}*/
 
 

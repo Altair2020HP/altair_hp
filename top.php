@@ -39,9 +39,9 @@
 						<p style="font-weight: bold; font-size:120%">金融系メンバーを中心に、基盤システム、情報システムの開発・保守などの事業を行っております</p>
 						<div>
 							<ul style="margin-top:40px; margin-left:10px"class="man">
-								<li><a href="#companyid"><img class="img_menu" src="image/menu_com.png" onmouseout="this.src='image/menu_com.png'" onmouseover="this.src='image/menu_com_hover.png'"></a></li>
-								<li><a href="#recruitid"><img class="img_menu" src="image/menu_re.png" onmouseout="this.src='image/menu_re.png'" onmouseover="this.src='image/menu_re_hover.png'"></a></li>
-								<li><a href="#contactid"><img class="img_menu" src="image/menu_co.png" onmouseout="this.src='image/menu_co.png'" onmouseover="this.src='image/menu_co_hover.png '"></a></li>
+								<li><a href="company.php"><img class="img_menu" src="image/menu_com.png" onmouseout="this.src='image/menu_com.png'" onmouseover="this.src='image/menu_com_hover.png'"></a></li>
+								<li><a href="tab.html"><img class="img_menu" src="image/menu_re.png" onmouseout="this.src='image/menu_re.png'" onmouseover="this.src='image/menu_re_hover.png'"></a></li>
+								<li><a href="contact.html"><img class="img_menu" src="image/menu_co.png" onmouseout="this.src='image/menu_co.png'" onmouseover="this.src='image/menu_co_hover.png '"></a></li>
 								<!-- <li><a href="#accessid"><img class="img_menu" src="image/menu_ac.png" onmouseout="this.src='image/menu_ac.png'" onmouseover="this.src='image/menu_ac_hover.png'"></a></li> -->
 							</ul>
 						</div>

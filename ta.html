@@ -1,0 +1,365 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name=hviewporth content=hwidth=device-width,initial-scale=1.0>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/recruit.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="file/bootstrap.css">
+	<script type="text/javascript" src="file/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/recuruitValidator.js"></script>
+</head>
+<link rel="stylesheet" href="tab.css">
+<body>
+<header id="head_fix">
+	<div class="headbox">
+		<a href="top.php">
+			<img src="image/altair_logo.png" class="header_image">
+		</a>
+
+		<div id="nav">
+			<ul>
+				<li><a href="top.php">Home</a></li>
+				<li><a href="company.php">Company</a></li>
+				<li><a href="tab.html">Recruit</a></li>
+				<!--	↓今回は使わない予定 -->
+				<!-- <li><a href="news.html">ニュース</a></li> -->
+				<li><a href="Inquiry.html">Contact</a></li>
+				<li><a href="privacy.html">Privacy</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<!-- <div class="emp_box"></div> -->
+<div id="header-sm">
+	<!-- <div class="mini_box"> -->
+	<a href="index.html"><img src="image/altair_logo.png" alt="ロゴマーク" class="logo"></a><!-- </div> -->
+
+	<div class="overlay-navigation">
+		<nav role="navigation">
+			<ul>
+				<li><a href="top.php" data-content="ホーム画面です">Home</a></li>
+				<li><a href="company.php" data-content="会社の情報を確認できます">Company</a></li>
+				<li><a href="tab.html" data-content="採用情報を確認できます">Recruit</a></li>
+				<li><a href="news.html" data-content="ニュースを表示します">News</a></li>
+				<li><a href="Inquiry.html" data-content="ご連絡のある方はこちら">Contact</a></li>
+				<li><a href="privacy.html" data-content="個人情報保護方針">Privacy</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<section class="home">
+		<div class="open-overlay">
+			<div class="maru"> 
+				<span class="bar-top"></span>
+				<span class="bar-middle"></span>
+				<span class="bar-bottom"></span>
+			</div>
+		</div>
+	</section>
+	<span class="menuMoji">menu</span>
+</div>
+<div class="pankuzu">
+			<ul>
+				<li><a class="no-color-change" href="top.php">ƒz[ƒ€</a></li>
+				<li>Ì—pî•ñ</li>
+			</ul>	
+		</div>
+
+<div class="tab_wrap">
+ <div class="tab_area">
+ <label class="tab_label active" for="tab1">V‘²Ì—p</label>
+ <label class="tab_label" for="tab2">’†“rÌ—p</label>
+ <label class="tab_label" for="tab3">Ì—pƒf[ƒ^</label>
+ </div>
+
+ <div class="panel_area">
+ <div id="panel1" class="tab_panel active">
+
+							<div class="title-box">
+								<h1 class="title">•åW—v€</h1>
+							</div>	
+							<table>
+								<h3 class="title02">•åWEŽí</h3>
+								<h1>ƒVƒXƒeƒ€ƒGƒ“ƒWƒjƒAEƒvƒƒOƒ‰ƒ}[</h1>
+								<tr>
+									<th>ŽdŽ–“à—e</th>
+									<td class="left-word">ƒRƒ“ƒsƒ…[ƒ^ƒ\ƒtƒgƒEƒFƒA‚ÌÝŒvEŠJ”­E\’zE‰^—pŠÇ—‚È‚ÇB
+									<br>—lX‚ÈƒvƒƒWƒFƒNƒg‚ÉŽæ‚è‘g‚ñ‚Å‚¢‚½‚¾‚¯‚Ü‚·B</td>
+								</tr>
+								<tr>
+									<th>‹‚ß‚éƒXƒLƒ‹EŒoŒ±</th>
+									<td class="left-word">JavaAPHPAC++AC#A.NET“™‚ðŽg—p‚µ‚½‚±‚Æ‚Ì‚ ‚é•ûB
+									<br>–¢ŒoŒ±‚Ìê‡AWord‚âExcel‚È‚ÇAPC‚ÌŠî–{‘€ì‚ª‚Å‚«A 
+									<br>Ï‹É“I‚ÉŽ©•ª‚Å•×‹­‚µ‚ÄƒXƒLƒ‹‚ðg‚É’…‚¯‚Ä‚¢‚­‚±‚Æ‚Ìo—ˆ‚é•ûB</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<h3 class="title02">‘Ò‹öE‹Î–±“à—e</h3>
+									<th>‹‹—^</th>
+									<td class="left-word">ŒoŒ±E”N—îE”\—Í‚ðl—¶‚ÌãA“–ŽÐ‹K’è‚É‚æ‚è—D‹ö‚¢‚½‚µ‚Ü‚·B
+									<br>ŒŽ‹‹—ájŠî–{‹‹ 20–œ‰~ + ŠeŽíŽè“–B</td>
+								</tr>
+								<tr>
+									<th>Žè“–</th>
+									<td class="left-word">–ðEŽè“–AŒÅ’èŽc‹ÆŽè“–AŒð’Ê”ï‘SŠzŽx‹‹(50,000‰~‚Ü‚Å)</td>
+								</tr>
+								<tr>
+									<th>•Ÿ—˜Œú¶</th>
+									<td class="left-word">”§“x : ŽÐ‰ï•ÛŒ¯AŒú¶”N‹àAŒÙ—p•ÛŒ¯
+										<br>ŽÐ“àsŽ– : ŒŽ—áe–r‰ï(‰ïŽÐ‘SŠz•‰’S)AŽÐˆõ—·s(ˆê•”Ž©ŒÈ•‰’S‚Ìê‡—L‚è)
+										<br>Ž{Ý : •Û—{Š(‰zŒã“’‘ò)</td>
+								</tr>
+								<tr>
+									<th>‚»‚Ì‘¼</th>
+									<td class="left-word">Ž‘ŠiŽæ“¾Žx‰‡§“x‚ ‚è</td>
+								</tr>
+								<tr>
+									<th>‹Î–±ŽžŠÔ</th>
+									<td class="left-word">9:00 ~ 18:00 ¦‹Î–±æ‚É‚æ‚èŽáŠ±ˆÙ‚È‚è‚Ü‚·</td>
+								</tr>
+								<tr>
+									<th>‹Î–±’n</th>
+									<td class="left-word">–{ŽÐ‚¨‚æ‚ÑA“s“à‹ßx‚ÌŒÚ‹qæ</td>
+								</tr>
+								<tr>
+									<th>‹x“úE‹x‰É</th>
+									<td class="left-word">Š®‘ST‹x2“ú§(“yA“ú)Aj“úA”N––”NŽnA—L‹‹‹x‰ÉAŒc’¢‹x‰ÉAƒŠƒtƒŒƒbƒVƒ…‹x‰É
+									</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<h3 class="title02">‰ž•å—v€</h3>
+									<th>‰ž•åŽ‘Ši</th>
+									<td class="left-word">
+										Šw—ð•s–âBWord‚âExcel‚È‚ÇAPC‚ÌŠî–{‘€ì‚ª‚Å‚«A
+										<br>Ï‹É“I‚ÉŽ©•ª‚Å•×‹­‚µ‚ÄƒXƒLƒ‹‚ðg‚É’…‚¯‚Ä‚¢‚­‚±‚Æ‚Ìo—ˆ‚é•ûB
+									</td>
+								</tr>
+								<tr>
+									<th>‰ž•å•û–@</th>
+									<td class="left-word">–ÊÚŽžB“d˜b‚Ü‚½‚Í‰º‹LƒtƒH[ƒ€‚É‚Ä‚¨–â‚¢‡‚í‚¹‚­‚¾‚³‚¢B
+									<br>ŠF—l‚ÌŒä˜A—‚ð‚¨‘Ò‚¿‚µ‚Ä‚¨‚è‚Ü‚·B</td>
+								</tr>
+								<tr>
+									<th>‘IlêŠ</th>
+									<td class="left-word">–{ŽÐ(“Œ‹ž“s‘ä“Œ‹æ“Œã–ì5-1-1 ‰œ“cƒrƒ‹6ŠK)</td>
+								</tr>
+								<tr>
+									<th>‘Il•û–@</th>
+									<td class="left-word">–ÊÚA—š—ð‘(ŽÊ^“\•t)</td>
+								</tr>				
+							</table>
+							<div  id=end_word>
+								<br><p>¦“üŽÐ“ú‰ž‘Š’kA‰ž•å‚Ì”é–§ŒµŽçA‰ž•å‘—Þ‚Í•Ô‹p‚µ‚Ü‚·B<br>®A‰ž•åŽ‘Ši‚É•sˆÀ‚Ì‚ ‚é•û‚à‚²‘Š’k‚­‚¾‚³‚¢B</p>
+								<p id=end_word_under>ƒxƒ“ƒ`ƒƒ[ƒ}ƒCƒ“ƒh‚âAŒüãS‚ðŽ‚Á‚½•û‚ðÏ‹É“I‚ÉÌ—p‚µ‚Ü‚·B</p>
+							</div>
+							<div class="animation">
+  							<div class="effect"></div>
+ 								 <a href="#"> ‰ž•åƒtƒH[ƒ€‚Í‚±‚¿‚ç‚©‚ç </a>
+							</div>
+
+ </div>
+ <div id="panel2" class="tab_panel">
+
+							<div class="title-box">
+								<h1 class="title">•åW—v€</h1>
+							</div>
+							<table>
+								<h3 class="title02">•åWEŽí</h3>
+								<h1>ƒVƒXƒeƒ€ƒGƒ“ƒWƒjƒAEƒvƒƒOƒ‰ƒ}[</h1>
+								<tr>
+									<th>ŽdŽ–“à—e</th>
+									<td class="left-word">ƒRƒ“ƒsƒ…[ƒ^ƒ\ƒtƒgƒEƒFƒA‚ÌÝŒvEŠJ”­E\’zE‰^—pŠÇ—‚È‚ÇB
+									<br>—lX‚ÈƒvƒƒWƒFƒNƒg‚ÉŽæ‚è‘g‚ñ‚Å‚¢‚½‚¾‚¯‚Ü‚·B</td>
+								</tr>
+								<tr>
+									<th>‹‚ß‚éƒXƒLƒ‹EŒoŒ±</th>
+									<td class="left-word">JavaAPHPAC++AC#A.NET“™‚Å‚ÌŠJ”­ŒoŒ±‚Ì‚ ‚é•ûB
+									<br>–¢ŒoŒ±‚Ìê‡AWord‚âExcel‚È‚ÇAPC‚ÌŠî–{‘€ì‚ª‚Å‚«A 
+									<br>Ï‹É“I‚ÉŽ©•ª‚Å•×‹­‚µ‚ÄƒXƒLƒ‹‚ðg‚É’…‚¯‚Ä‚¢‚­‚±‚Æ‚Ìo—ˆ‚é•ûB</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<h3 class="title02">‘Ò‹öE‹Î–±“à—e</h3>
+									<th>‹‹—^</th>
+									<td class="left-word">ŒoŒ±E”N—îE”\—Í‚ðl—¶‚ÌãA“–ŽÐ‹K’è‚É‚æ‚è—D‹ö‚¢‚½‚µ‚Ü‚·B
+									<br>ŒŽ‹‹—ájŠî–{‹‹ 20–œ‰~ + ŠeŽíŽè“–B</td>
+								</tr>
+								<tr>
+									<th>Žè“–</th>
+									<td class="left-word">–ðEŽè“–AŒÅ’èŽc‹ÆŽè“–AŒð’Ê”ï‘SŠzŽx‹‹(50,000‰~‚Ü‚Å)</td>
+								</tr>
+								<tr>
+									<th>•Ÿ—˜Œú¶</th>
+									<td class="left-word">”§“x : ŽÐ‰ï•ÛŒ¯AŒú¶”N‹àAŒÙ—p•ÛŒ¯
+										<br>ŽÐ“àsŽ– : ŒŽ—áe–r‰ï(‰ïŽÐ‘SŠz•‰’S)AŽÐˆõ—·s(ˆê•”Ž©ŒÈ•‰’S‚Ìê‡—L‚è)
+										<br>Ž{Ý : •Û—{Š(‰zŒã“’‘ò)</td>
+								</tr>
+								<tr>
+									<th>‚»‚Ì‘¼</th>
+									<td class="left-word">Ž‘ŠiŽæ“¾Žx‰‡§“x‚ ‚è</td>
+								</tr>
+								<tr>
+									<th>‹Î–±ŽžŠÔ</th>
+									<td class="left-word">9:00 ~ 18:00 ¦‹Î–±æ‚É‚æ‚èŽáŠ±ˆÙ‚È‚è‚Ü‚·</td>
+								</tr>
+								<tr>
+									<th>‹Î–±’n</th>
+									<td class="left-word">–{ŽÐ‚¨‚æ‚ÑA“s“à‹ßx‚ÌŒÚ‹qæ</td>
+								</tr>
+								<tr>
+									<th>‹x“úE‹x‰É</th>
+									<td class="left-word">Š®‘ST‹x2“ú§(“yA“ú)Aj“úA”N––”NŽnA—L‹‹‹x‰ÉAŒc’¢‹x‰ÉAƒŠƒtƒŒƒbƒVƒ…‹x‰É
+									</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<h3 class="title02">‰ž•å—v€</h3>
+									<th>‰ž•åŽ‘Ši</th>
+									<td class="left-word">Šw—ð•s–âBWord‚âExcel‚È‚ÇAPC‚ÌŠî–{‘€ì‚ª‚Å‚«A
+										<br>Ï‹É“I‚ÉŽ©•ª‚Å•×‹­‚µ‚ÄƒXƒLƒ‹‚ðg‚É’…‚¯‚Ä‚¢‚­‚±‚Æ‚Ìo—ˆ‚é•ûB
+									</td>
+								</tr>
+								<tr>
+									<th>‰ž•å•û–@</th>
+									<td class="left-word">–ÊÚŽžB“d˜b‚Ü‚½‚Í‰º‹L‚ÌƒtƒH[ƒ€‚É‚Ä‚¨–â‚¢‡‚í‚¹‰º‚³‚¢B
+									<br>ŠF—l‚ÌŒä˜A—‚ð‚¨‘Ò‚¿‚µ‚Ä‚¨‚è‚Ü‚·B</td>
+								</tr>
+								<tr>
+									<th>‘IlêŠ</th>
+									<td class="left-word">–{ŽÐ(“Œ‹ž“s‘ä“Œ‹æ“Œã–ì5-1-1 ‰œ“cƒrƒ‹6ŠK)</td>
+								</tr>
+								<tr>
+									<th>‘Il•û–@</th>
+									<td class="left-word">–ÊÚA—š—ð‘(ŽÊ^“\•t)A‹Æ–±Œo—ð‘(‘Ž®Ž©—R)</td>
+								</tr>				
+							</table>
+							<div  id=end_word>
+								<br><p>¦“üŽÐ“ú‰ž‘Š’kA‰ž•å‚Ì”é–§ŒµŽçA‰ž•å‘—Þ‚Í•Ô‹p‚µ‚Ü‚·B<br>®A‰ž•åŽ‘Ši‚É•sˆÀ‚Ì‚ ‚é•û‚à‚²‘Š’k‚­‚¾‚³‚¢B</p>
+								<p id=end_word_under>ƒxƒ“ƒ`ƒƒ[ƒ}ƒCƒ“ƒh‚âAŒüãS‚ðŽ‚Á‚½•û‚ðÏ‹É“I‚ÉÌ—p‚µ‚Ü‚·B</p>
+							<div class="animation">
+  							<div class="effect"></div>
+ 								 <a href="#"> ‰ž•åƒtƒH[ƒ€‚Í‚±‚¿‚ç‚©‚ç </a>
+							</div>
+							</div>
+						
+		</div>
+ <div id="panel3" class="tab_panel">
+
+						
+							<div class="title-box">
+								<h1 class="title">Ì—pƒf[ƒ^</h1>
+							</div>
+							<table>
+								<tr>
+									<th>Ì—pl”</th>
+									<td>V‘²@5–¼’ö“x
+									<br>’†“r@”–¼</td>
+								</tr>
+								<tr>
+									<th>‘Il•û–@</th>
+									<td>–Ê’k@1‰ñ‚Ì‚Ý</td>
+								</tr>
+								<tr>
+									<th>ŽÐˆõ•½‹Ï”N—î</th>
+									<td>28Î</td>
+								</tr>
+								<tr>
+									<th>Œ¤C§“x</th>
+									<td>ƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¤C(“üŽÐŽž)
+									<br>V“üŽÐˆõ@3ƒ•ŒŽ</td>
+								</tr>
+								<tr>
+									<th>ŒŽ•½‹ÏŽc‹ÆŽžŠÔ</th>
+									<td>15ŽžŠÔ</td>
+								</tr>
+								<tr>
+									<th>ƒ‚ƒfƒ‹‹‹—^</th>
+									<td>ê–å‘²@208,125‰~`(ŒÅ’èŽc‹Æ‘ã20HŠÜ‚Þ)
+									<br>‘åŠw‘²@231,250‰~`(ŒÅ’èŽc‹Æ‘ã20HŠÜ‚Þ)
+									<br>’†“r@ƒXƒLƒ‹‚É‚æ‚è‰ž‘Š’k</td>
+								</tr>
+								<tr>
+									<th>ŽŽ—pŠúŠÔ</th>
+									<td>‚ ‚è(3ƒ•ŒŽ)
+									<br>–{Ì—pŒã‚Æ“¯ðŒ</td>
+								</tr>
+								<tr>
+									<th>Ì—pŽÀÑZ</th>
+									<td>y‘åŠwz
+									<br>’}”g‘åŠwAŒc‰ž‘åŠwA‰F“s‹{‘åŠwA“Œ‹žŠC—m‘åŠwA¬æü‘åŠwA“Œ‹ž“d‹@‘åŠwA
+									<br>ç—tH‹Æ‘åŠwA“ú–{‘åŠw•¶—Šw•”A–k—¢‘åŠwA’†‰›Šw‰@‘åŠwA’é‹ž‘åŠwA
+									<br>‘åã“d‹C’ÊM‘åŠwAŒh˜aŠw‰€‘åŠwA“ú–{‰f‰æ‘åŠw
+									<br><br>yê–åz
+									<br>HAL“Œ‹žA‘åã•¶‰»•žüŠw‰@A’†‰›î•ñŒoÏê–åŠwZAŠâèŠw‰€A
+									<br>‘ÛƒA[ƒgƒfƒUƒCƒ“ê–åŠwZ</td>
+								</tr>
+							</table>
+			</div>		
+			
+			<!--
+			<h2 id="form-mae">‚¨–â‡‚¹</h2>
+					<div id="form">
+		    			<form action="./confirm.php" method="post">
+		    			<h3 class="form-title">‚¨–â‡‚í‚¹“à—e<span style="color:red">*</span></h3>
+		    				<input type="radio" name="contact" value="V‘²Ì—p" required="required" class="radio">V‘²Ì—p<br>
+							<input type="radio" name="contact" value="’†“rÌ—p" required="required" class="radio">’†“rÌ—p
+
+						<h3 class="form-title">–¼‘O<span style="color:red">*</span></h3>
+							@©<input type="name" name="familyname" class="name" placeholder="(—á)˜hÀ" id="familyname">@–¼<input type="name" name="firstname" class="name"placeholder="(—á)‘¾˜Y" id="firstname">
+							<div id="nameError"></div>
+						<h3 class="form-title">ƒtƒŠƒKƒi<span style="color:red">*</span></h3>
+							ƒZƒC<input type="name" name="familynameKana" class="name"placeholder="(—á)ƒƒVƒU" id="familynameKana">ƒƒC<input type="name" name="firstnameKana" class="name"placeholder="(—á)ƒ^ƒƒE" id="firstnameKana">
+							<div id="furiError"></div>
+						<h3 class="form-title">«•Ê<span style="color:red">*</span></h3>
+							<input type="radio" name="seibetsu" value="’j" required="required" class="radio">’j<br>
+							<input type="radio" name="seibetsu" value="—" required="required" class="radio">—
+		    			<h3 class="form-title">ƒ[ƒ‹ƒAƒhƒŒƒX <span style="color:red">*</span></h3>
+		    					<input type="email" name="email" id="email">
+		    					<div id="emailError"></div>
+		    			<h3 class="form-title">ŠT—v</h3>
+		    					<textarea name="content" cols="50" rows="50"></textarea>
+		    					<div id="contentError"></div>
+		    					<div id="errorList"></div>
+		    				<div class="right">
+		    					<input type="button" value="‘—M" class="bubbly-button" onclick="checkForm()">
+		    				</div>
+		    					<input type="submit" style="display: none" id="submit">
+		    			</form>	
+		    		</div>
+		    		-->
+ <script type="text/javascript" src="js/tab.js"></script>
+ </div>
+ </div>
+ <footer>
+	<div id="footer">
+		<div id="footer-content">
+			<ul>
+				<li><a href="top.php">Home</a></li>
+				<li><a href="company.php">Company</a></li>
+				<li><a href="tab.html">Recruit</a></li>
+				<!-- 今回は使わない -->
+				<!-- <li><a href="news.html">ニュース</a></li> -->
+				<li><a href="Inquiry.html">Contact</a></li>
+				<li><a href="privacy.html">Privacy</a></li>
+			</ul>
+		</div>
+		<small style="color:white">
+			&copy; 2018 Altair Corporation All Rights Reserved.
+		</small>
+	</div>
+</footer>
+</body>
+</html>

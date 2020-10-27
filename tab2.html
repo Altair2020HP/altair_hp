@@ -1,0 +1,365 @@
+<html>
+<head>
+	<meta charset="">
+	<meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/recruit.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="file/bootstrap.css">
+	<script type="text/javascript" src="file/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/recuruitValidator.js"></script>
+</head>
+<link rel="stylesheet" href="tab.css">
+<body>
+	<header id="head_fix">
+	<div class="headbox">
+		<a href="top.php">
+			<img src="image/altair_logo.png" class="header_image">
+		</a>
+
+		<div id="nav">
+			<ul>
+				<li><a href="top.php">Home</a></li>
+				<li><a href="company.php">Company</a></li>
+				<li><a href="tab2.html">Recruit</a></li>
+				<!--	↓今回は使わない予定 -->
+				<!-- <li><a href="news.html">ニュース</a></li> -->
+				<li><a href="Inquiry.html">Contact</a></li>
+				<li><a href="privacy.html">Privacy</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<!-- <div class="emp_box"></div> -->
+<div id="header-sm">
+	<!-- <div class="mini_box"> -->
+	<a href="index.html"><img src="image/altair_logo.png" alt="ロゴマーク" class="logo"></a><!-- </div> -->
+
+	<div class="overlay-navigation">
+		<nav role="navigation">
+			<ul>
+				<li><a href="top.php" data-content="ホーム画面です">Home</a></li>
+				<li><a href="company.php" data-content="会社の情報を確認できます">Company</a></li>
+				<li><a href="tab.html" data-content="採用情報を確認できます">Recruit</a></li>
+				<li><a href="news.html" data-content="ニュースを表示します">News</a></li>
+				<li><a href="Inquiry.html" data-content="ご連絡のある方はこちら">Contact</a></li>
+				<li><a href="privacy.html" data-content="個人情報保護方針">Privacy</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<section class="home">
+		<div class="open-overlay">
+			<div class="maru"> 
+				<span class="bar-top"></span>
+				<span class="bar-middle"></span>
+				<span class="bar-bottom"></span>
+			</div>
+		</div>
+	</section>
+	<span class="menuMoji">menu</span>
+</div>
+<div class="pankuzu">
+			<ul>
+				<li><a class="no-color-change" href="index.html">ホーム</a></li>
+				<li>採用情報</li>
+			</ul>	
+		</div>
+
+<div class="tab_wrap">
+ <div class="tab_area">
+ <label class="tab_label active" for="tab1">新卒採用</label>
+ <label class="tab_label" for="tab2">中途採用</label>
+ <label class="tab_label" for="tab3">採用データ</label>
+ </div>
+
+ <div class="panel_area">
+ <div id="panel1" class="tab_panel active">
+
+							<div class="title-box">
+								<h1 class="title">募集要項</h1>
+							</div>	
+							<table>
+								<h3 class="title02">募集職種</h3>
+								<h1>システムエンジニア・プログラマー</h1>
+								<tr>
+									<th>仕事内容</th>
+									<td class="left-word">コンピュータソフトウェアの設計・開発・構築・運用管理など。
+									<br>様々なプロジェクトに取り組んでいただけます。</td>
+								</tr>
+								<tr>
+									<th>求めるスキル・経験</th>
+									<td class="left-word">Java、PHP、C++、C#、.NET等を使用したことのある方。
+									<br>未経験の場合、WordやExcelなど、PCの基本操作ができ、 
+									<br>積極的に自分で勉強してスキルを身に着けていくことの出来る方。</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<h3 class="title02">待遇・勤務内容</h3>
+									<th>給与</th>
+									<td class="left-word">経験・年齢・能力を考慮の上、当社規定により優遇いたします。
+									<br>月給例）基本給 20万円 + 各種手当。</td>
+								</tr>
+								<tr>
+									<th>手当</th>
+									<td class="left-word">役職手当、固定残業手当、交通費全額支給(50,000円まで)</td>
+								</tr>
+								<tr>
+									<th>福利厚生</th>
+									<td class="left-word">諸制度 : 社会保険、厚生年金、雇用保険
+										<br>社内行事 : 月例親睦会(会社全額負担)、社員旅行(一部自己負担の場合有り)
+										<br>施設 : 保養所(越後湯沢)</td>
+								</tr>
+								<tr>
+									<th>その他</th>
+									<td class="left-word">資格取得支援制度あり</td>
+								</tr>
+								<tr>
+									<th>勤務時間</th>
+									<td class="left-word">9:00 ~ 18:00 ※勤務先により若干異なります</td>
+								</tr>
+								<tr>
+									<th>勤務地</th>
+									<td class="left-word">本社および、都内近郊の顧客先</td>
+								</tr>
+								<tr>
+									<th>休日・休暇</th>
+									<td class="left-word">完全週休2日制(土、日)、祝日、年末年始、有給休暇、慶弔休暇、リフレッシュ休暇
+									</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<h3 class="title02">応募要項</h3>
+									<th>応募資格</th>
+									<td class="left-word">
+										学歴不問。WordやExcelなど、PCの基本操作ができ、
+										<br>積極的に自分で勉強してスキルを身に着けていくことの出来る方。
+									</td>
+								</tr>
+								<tr>
+									<th>応募方法</th>
+									<td class="left-word">面接随時。電話または下記フォームにてお問い合わせください。
+									<br>皆様の御連絡をお待ちしております。</td>
+								</tr>
+								<tr>
+									<th>選考場所</th>
+									<td class="left-word">本社(東京都台東区東上野5-1-1 奥田ビル6階)</td>
+								</tr>
+								<tr>
+									<th>選考方法</th>
+									<td class="left-word">面接、履歴書(写真貼付)</td>
+								</tr>				
+							</table>
+							<div  id=end_word>
+								<br><p>※入社日応相談、応募の秘密厳守、応募書類は返却します。<br>尚、応募資格に不安のある方もご相談ください。</p>
+								<p id=end_word_under>ベンチャーマインドや、向上心を持った方を積極的に採用します。</p>
+							</div>
+							<div class="animation">
+  							<div class="effect"></div>
+ 								 <a href="#"> 応募フォームはこちらから </a>
+							</div>
+
+ </div>
+ <div id="panel2" class="tab_panel">
+
+							<div class="title-box">
+								<h1 class="title">募集要項</h1>
+							</div>
+							<table>
+								<h3 class="title02">募集職種</h3>
+								<h1>システムエンジニア・プログラマー</h1>
+								<tr>
+									<th>仕事内容</th>
+									<td class="left-word">コンピュータソフトウェアの設計・開発・構築・運用管理など。
+									<br>様々なプロジェクトに取り組んでいただけます。</td>
+								</tr>
+								<tr>
+									<th>求めるスキル・経験</th>
+									<td class="left-word">Java、PHP、C++、C#、.NET等での開発経験のある方。
+									<br>未経験の場合、WordやExcelなど、PCの基本操作ができ、 
+									<br>積極的に自分で勉強してスキルを身に着けていくことの出来る方。</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<h3 class="title02">待遇・勤務内容</h3>
+									<th>給与</th>
+									<td class="left-word">経験・年齢・能力を考慮の上、当社規定により優遇いたします。
+									<br>月給例）基本給 20万円 + 各種手当。</td>
+								</tr>
+								<tr>
+									<th>手当</th>
+									<td class="left-word">役職手当、固定残業手当、交通費全額支給(50,000円まで)</td>
+								</tr>
+								<tr>
+									<th>福利厚生</th>
+									<td class="left-word">諸制度 : 社会保険、厚生年金、雇用保険
+										<br>社内行事 : 月例親睦会(会社全額負担)、社員旅行(一部自己負担の場合有り)
+										<br>施設 : 保養所(越後湯沢)</td>
+								</tr>
+								<tr>
+									<th>その他</th>
+									<td class="left-word">資格取得支援制度あり</td>
+								</tr>
+								<tr>
+									<th>勤務時間</th>
+									<td class="left-word">9:00 ~ 18:00 ※勤務先により若干異なります</td>
+								</tr>
+								<tr>
+									<th>勤務地</th>
+									<td class="left-word">本社および、都内近郊の顧客先</td>
+								</tr>
+								<tr>
+									<th>休日・休暇</th>
+									<td class="left-word">完全週休2日制(土、日)、祝日、年末年始、有給休暇、慶弔休暇、リフレッシュ休暇
+									</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<h3 class="title02">応募要項</h3>
+									<th>応募資格</th>
+									<td class="left-word">学歴不問。WordやExcelなど、PCの基本操作ができ、
+										<br>積極的に自分で勉強してスキルを身に着けていくことの出来る方。
+									</td>
+								</tr>
+								<tr>
+									<th>応募方法</th>
+									<td class="left-word">面接随時。電話または下記のフォームにてお問い合わせ下さい。
+									<br>皆様の御連絡をお待ちしております。</td>
+								</tr>
+								<tr>
+									<th>選考場所</th>
+									<td class="left-word">本社(東京都台東区東上野5-1-1 奥田ビル6階)</td>
+								</tr>
+								<tr>
+									<th>選考方法</th>
+									<td class="left-word">面接、履歴書(写真貼付)、業務経歴書(書式自由)</td>
+								</tr>				
+							</table>
+							<div  id=end_word>
+								<br><p>※入社日応相談、応募の秘密厳守、応募書類は返却します。<br>尚、応募資格に不安のある方もご相談ください。</p>
+								<p id=end_word_under>ベンチャーマインドや、向上心を持った方を積極的に採用します。</p>
+							<div class="animation">
+  							<div class="effect"></div>
+ 								 <a href="#"> 応募フォームはこちらから </a>
+							</div>
+							</div>
+						
+		</div>
+ <div id="panel3" class="tab_panel">
+
+						
+							<div class="title-box">
+								<h1 class="title">採用データ</h1>
+							</div>
+							<table>
+								<tr>
+									<th>採用人数</th>
+									<td>新卒　5名程度
+									<br>中途　数名</td>
+								</tr>
+								<tr>
+									<th>選考方法</th>
+									<td>面談　1回のみ</td>
+								</tr>
+								<tr>
+									<th>社員平均年齢</th>
+									<td>28歳</td>
+								</tr>
+								<tr>
+									<th>研修制度</th>
+									<td>プログラミング研修(入社時)
+									<br>新入社員　3ヵ月</td>
+								</tr>
+								<tr>
+									<th>月平均残業時間</th>
+									<td>15時間</td>
+								</tr>
+								<tr>
+									<th>モデル給与</th>
+									<td>専門卒　208,125円～(固定残業代20H含む)
+									<br>大学卒　231,250円～(固定残業代20H含む)
+									<br>中途　スキルにより応相談</td>
+								</tr>
+								<tr>
+									<th>試用期間</th>
+									<td>あり(3ヵ月)
+									<br>本採用後と同条件</td>
+								</tr>
+								<tr>
+									<th>採用実績校</th>
+									<td>【大学】
+									<br>筑波大学、慶応大学、宇都宮大学、東京海洋大学、成蹊大学、東京電機大学、
+									<br>千葉工業大学、日本大学文理学部、北里大学、中央学院大学、帝京大学、
+									<br>大阪電気通信大学、敬和学園大学、日本映画大学
+									<br><br>【専門】
+									<br>HAL東京、大阪文化服飾学院、中央情報経済専門学校、岩崎学園、
+									<br>国際アートデザイン専門学校</td>
+								</tr>
+							</table>
+			</div>		
+			
+			<!--
+			<h2 id="form-mae">お問合せ</h2>
+					<div id="form">
+		    			<form action="./confirm.php" method="post">
+		    			<h3 class="form-title">お問合わせ内容<span style="color:red">*</span></h3>
+		    				<input type="radio" name="contact" value="新卒採用" required="required" class="radio">新卒採用<br>
+							<input type="radio" name="contact" value="中途採用" required="required" class="radio">中途採用
+
+						<h3 class="form-title">名前<span style="color:red">*</span></h3>
+							　姓<input type="name" name="familyname" class="name" placeholder="(例)鷲座" id="familyname">　名<input type="name" name="firstname" class="name"placeholder="(例)太郎" id="firstname">
+							<div id="nameError"></div>
+						<h3 class="form-title">フリガナ<span style="color:red">*</span></h3>
+							セイ<input type="name" name="familynameKana" class="name"placeholder="(例)ワシザ" id="familynameKana">メイ<input type="name" name="firstnameKana" class="name"placeholder="(例)タロウ" id="firstnameKana">
+							<div id="furiError"></div>
+						<h3 class="form-title">性別<span style="color:red">*</span></h3>
+							<input type="radio" name="seibetsu" value="男" required="required" class="radio">男<br>
+							<input type="radio" name="seibetsu" value="女" required="required" class="radio">女
+		    			<h3 class="form-title">メールアドレス <span style="color:red">*</span></h3>
+		    					<input type="email" name="email" id="email">
+		    					<div id="emailError"></div>
+		    			<h3 class="form-title">概要</h3>
+		    					<textarea name="content" cols="50" rows="50"></textarea>
+		    					<div id="contentError"></div>
+		    					<div id="errorList"></div>
+		    				<div class="right">
+		    					<input type="button" value="送信" class="bubbly-button" onclick="checkForm()">
+		    				</div>
+		    					<input type="submit" style="display: none" id="submit">
+		    			</form>	
+		    		</div>
+		    		-->
+ <script type="text/javascript" src="js/tab.js"></script>
+ </div>
+ </div>
+ <footer>
+	<div id="footer">
+		<div id="footer-content">
+			<ul>
+				<li><a href="top.php">Home</a></li>
+				<li><a href="company.php">Company</a></li>
+				<li><a href="tab.html">Recruit</a></li>
+				<!-- 今回は使わない -->
+				<!-- <li><a href="news.html">ニュース</a></li> -->
+				<li><a href="Inquiry.html">Contact</a></li>
+				<li><a href="privacy.html">Privacy</a></li>
+			</ul>
+		</div>
+		<small style="color:white">
+			&copy; 2018 Altair Corporation All Rights Reserved.
+		</small>
+	</div>
+</footer>
+</body>
+</html>

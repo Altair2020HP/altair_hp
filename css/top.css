@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*	写真部分	*/
+.top_css{
+	height: 600px;
+	width: 100%;
+	background-image: url(../image/recruit.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+.cont_box{
+	color: blue;
+	cursor: pointer;
+}
+.contri_img:active{
+	
+	transition: 0.3s ease 0s;
+}
+.contri_img{
+	display: none;
+	height: 300px;
+	width: 300px;
+}
+/*.contri_img:hover{
+	transition:1s all;
+	height: 300px;
+	width: 300px;
+}*/
+/*.top_main3{
+	display: flex;
+}
+.top_main2{
+	width: 50%;
+	height: 300px;
+	object-fit: cover;
+}*/
+.big_main{
+	margin-bottom: 25px;
+}
+.main2{
+	width: 80%;
+	margin: 0 auto;
+	/*background-color: royalblue;*/
+}
+.main2 h1{
+	display: block;
+	margin-top:25px; 
+	border-bottom: solid 1px black;
+}
+.main p{
+}
+.main {
+/*	width: 50%;*/
+	text-align: center;
+	margin-top: 50px;
+}
+.man{
+	display: flex;
+	justify-content:center;
+	list-style: none;
+}
+.man li{
+	padding: 10px;
+}
+.img_menu{
+    width: 130px;
+    margin: 15px;
+}
+/*.news_box{
+	text-align: center;
+}*/
+.news{
+	display: flex;
+	justify-content: center;
+}
+.news_table{
+	margin-top: 25px auto 25px;
+}
+.news_table td{
+	border-bottom: 1px solid black;
+	font-size: 20px;
+}
+
+
+
+

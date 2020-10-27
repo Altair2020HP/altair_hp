@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   /* font-family: sans-serif*/;
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: white;            /* 背景色 */
+/*   background-image: url(images/test2.jpg.jpg); /* 画像 */
+   background-size: cover;               /* 全画面 */
+   background-attachment: fixed;         /* 固定 */
+   background-position: center center;  
+
+}
+a:link, a:visited, a:hover, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+/* 会社概要 */
+#profile{
+/*    background:linear-gradient(#000008, #000428, #243b55);*/
+}
+#position{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    position: relative;
+}
+
+
+.company_p{
+  font-size: 1em;
+  color: black; 
+  border-bottom: 4px solid #5767bf;
+ margin-bottom: 10px;
+}
+
+table.profile{
+    margin-right: 20px;
+    position: relative;
+    margin-top: 10vh;
+/*    color: #ffffff;*/
+ /*   float: right;*/
+    border-collapse: collapse;
+/*    margin-left: 100px;*/
+
+margin: 0 auto;
+width: 100%;
+}
+table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+table tr td.summary{
+    font-weight: bold;
+      background: #DDDDDD ;
+      opacity: 0.5;
+      width: 15%;
+}
+
+td{
+  text-align: center;
+}
+
+li{
+    list-style: none;
+}
+img.img{
+  height: 100px;
+}
+
+
+
+
+/* アクセス部分 */
+#access{
+    max-width: 960px;
+        margin-left: auto;
+    margin-right: auto;
+}
+
+.access {
+    /*background:linear-gradient(#000008, #000428, #243b55);*/
+     border-bottom: 4px solid #5767bf;
+}
+#map{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5px;
+    width: 90%;
+    overflow: hidden;
+
+   
+}
+#map iframe{
+    width: 100% !important;
+}
+#access p{
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+
+a {
+  color: #FFFFFF;
+}
+
+a.no-color-change:hover {
+  color: #5767bf;
+}
+
+a.no-color-change {
+  color: #FFFFFF;
+}
+
+.pankuzu li {
+
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  color:black;
+  text-decoration: none;
+}
+
+.pankuzu li:after {
+
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-top: solid 2px black;
+  border-right: solid 2px black;;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -4px;
+  transform: rotate(45deg);
+}

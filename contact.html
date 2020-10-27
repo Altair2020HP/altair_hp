@@ -1,0 +1,197 @@
+<html>
+<head>
+	<!-- ここからテンプレート -->
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/ncmb.min.js"></script>
+	<script type="text/javascript" src="js/topNews.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="file/bootstrap.css">
+	<script type="text/javascript" src="file/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="Inquiry.css">
+	<script type="text/javascript" src="js/contactValidator.js"></script>
+	<meta name="description" content="株式会社アルタイルへようこそ。金融機関向けを中心に、コンピュータソフトウェアの設計・開発や構築・運用管理を手掛けています。また、それに付随する業務にも取り組んでいます。">
+	<meta name="keywords" content="アルタイル,IT,solution,partner,SES,ネットワーク,ソフトウェア,システム,開発,委託,求人,人材,派遣">
+	<!-- ここまでテンプレート　すべてにコピー -->
+	<title>株式会社アルタイル|お問合せ</title>
+</head>
+
+<body id="Inquiry">
+	<header id="head_fix">
+	<div class="headbox">
+		<a href="top.php">
+			<img src="image/altair_logo6.png" class="header_image">
+		</a>
+
+		<div id="nav">
+			<ul>
+				<li><a href="top.php">Home</a></li>
+				<li><a href="company.php">Company</a></li>
+				<li><a href="tab.html">Recruit</a></li>
+				<!--	↓今回は使わない予定 -->
+				<!-- <li><a href="news.html">ニュース</a></li> -->
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="privacy.html">Privacy</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<!-- <div class="emp_box"></div> -->
+<div id="header-sm">
+	<!-- <div class="mini_box"> -->
+	<a href="top.php"><img src="image/altair_logo6.png" alt="ロゴマーク" class="logo"></a><!-- </div> -->
+
+	<div class="overlay-navigation">
+		<nav role="navigation">
+			<ul>
+				<li><a href="top.php" data-content="ホーム画面です">Home</a></li>
+				<li><a href="company.php" data-content="会社の情報を確認できます">Company</a></li>
+				<li><a href="tab.html" data-content="採用情報を確認できます">Recruit</a></li>
+				<!-- <li><a href="news.html" data-content="ニュースを表示します">News</a></li> -->
+				<li><a href="contact.html" data-content="ご連絡のある方はこちら">Contact</a></li>
+				<li><a href="privacy.html" data-content="個人情報保護方針">Privacy</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<section class="home">
+		<div class="open-overlay">
+			<div class="maru"> 
+				<span class="bar-top"></span>
+				<span class="bar-middle"></span>
+				<span class="bar-bottom"></span>
+			</div>
+		</div>
+	</section>
+	<span class="menuMoji">menu</span>
+</div>
+ <div class="pankuzu">
+      <ul>
+        <li><a href="top.php">ホーム</a></li>
+        <li><a href="#">会社概要</a></li>
+      </ul>
+    </div>
+	<div id="container">
+		<div id="main">
+				<form action="./contact.php" method="post">
+					<div id="title">
+						<h1>CONTACT</h1>
+						<p>お問合せ</p>
+						<font size="2">業務や採用に関するお問合せは、下記フォームより送信してください。</font>
+					</div>
+					<div id="contact">
+	    				<h4>
+	    					お問合せの種類
+	    					<font color="red">*</font>
+	    				</h4>
+		    				
+	    				<div class="textBox">
+		    				<select name="contact" required="required" style="width:300px;height:30px;" id="select">
+		    					<option value="0" selected>選択してください。</option>
+								<option value="WEBサイトについて" >Webサイトについて</option>
+								<option value="事業について" >事業について</option>
+								<option value="採用について">採用について</option>
+								<option value="ご意見・ご要望">ご意見・ご要望</option>
+								<option value="プライポリシーについて">プライバシーポリシーについて</option>
+							</select>
+							<div id="selectError"></div>
+						</div>
+
+						<h4>
+							お名前(漢字)
+							<font color="red">*</font>
+						</h4>
+
+						<div class="textBox">
+							<input type="name" name="name" class="name" placeholder="鷲座 太郎" style="width:300px;height:30px;"  id="name">
+						</div>
+
+						<h4>
+							お名前(フリガナ)
+							<font color="red">*</font>
+						</h4>
+
+						<div class="textBox">
+							<input type="name" name="nameKana" class="name" placeholder="ワシザ タロウ" style="width:300px;height:30px;" id="nameKana">
+							<div id="furiError"></div>
+						</div>	
+
+						<h4>
+							性別
+						</h4>
+							
+						<div class="textBox" >
+							<input type="radio" name="seibetsu" value="男" class="radio"　id="radio01" class="radio">男
+							
+							<input type="radio" name="seibetsu" value="女" class="radio" id="radio02" class="radio">女
+		    			</div>
+
+		    			<h4>
+		    				電話番号
+		    				<font color="red">*</font>
+		    			</h4>
+
+		    			<div class="textBox">
+			    			<input type="tel" name="tel" style="width:300px;height:30px;" class="tel" id="tel01"  placeholder="000-0000-0000" class="radio">
+			    			<div id="telError"></div>
+		    			</div>
+
+		    			<h4>
+		    				メールアドレス
+		    				<font color="red" >*</font>
+		    			</h4>
+		    			
+		    			<div class="textBox">
+			    			<input type="text" name="email" class="email" id="email" style="width:300px;height:30px;">
+			    			<div id="emailError"></div>
+		    			</div>
+
+		    			<h4>
+		    				お問合せ内容
+		    				<font color="red">*</font>
+		    			</h4>
+
+						<div class="textBox">
+			    			<textarea name="content" id="content" placeholder="お問合せ内容を記入してください。"></textarea>
+			    			<div id="contentError"></div>
+		    			</div>
+		    			<div id="errorList"></div>
+		    			<div class="center">
+		    				<div style="margin-top: 40px"></div>
+		    				<a href="privacy.html">プライバシーポリシー　&gt;</a>
+
+		    				<br>
+		    				<p>
+		    					上記プライバシーポリシーに同意する
+		    					<input type="checkbox" name="checkbox[]" value="0" required="required" id="checkbox">
+		    				</p>
+		    					<input type = "button" value="送信" onclick="checkForm()" class="bubbly-button">
+		    						<input type="submit" id="submit" style="display: none">
+		    			</div>
+		  	  		</form>	
+		  	  		</div>
+		  	  </div>
+		</div>
+		<footer>
+	<div id="footer">
+		<div id="footer-content">
+			<ul>
+				<li><a href="top.php">Home</a></li>
+				<li><a href="company.php">Company</a></li>
+				<li><a href="tab.html">Recruit</a></li>
+				<!-- 今回は使わない -->
+				<!-- <li><a href="news.html">ニュース</a></li> -->
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="privacy.html">Privacy</a></li>
+			</ul>
+		</div>
+		<small style="color:white">
+			&copy; 2018 Altair Corporation All Rights Reserved.
+		</small>
+	</div>
+</footer>
+</body>
+</body>
+</html>
